@@ -7,11 +7,11 @@
 ### Some research about GOL we can find [there]
 
 ### Screencast of app 2d:
-![alt text]()
+![alt text](https://github.com/Acool4ik/GameOfLife-2d-and-3d/blob/master/images/Screencast_2d.gif)
 ### Screencast of app 3d colored:
-![alt text]()
+![alt text](https://github.com/Acool4ik/GameOfLife-2d-and-3d/blob/master/images/Screencast_3d_colored.gif)
 ### Screencast of app 3d transparent:
-![alt text]()
+![alt text](https://github.com/Acool4ik/GameOfLife-2d-and-3d/blob/master/images/Screencast_3d_transparent.gif)
 
    [GLFW]: <https://www.glfw.org/download.html>
    [there]: <https://content.wolfram.com/uploads/sites/13/2018/02/01-3-1.pdf>
