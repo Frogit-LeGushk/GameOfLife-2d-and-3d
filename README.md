@@ -1,6 +1,6 @@
 # Game Of Life (GOL) 2d and 3d version
 ### Then to run project 2d with Rule (2333):
-- `make run_3d`
+- `make run_2d`
 ### Then to run project 3d with Rule (4555):
 - `download` [GLFW]
 - `make run_3d`
