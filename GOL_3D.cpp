@@ -12,8 +12,8 @@
 #include <string.h>
 
 
-#define W_WIDTH 1920
-#define W_HEIGHT 1080
+int W_WIDTH = 1920;
+int W_HEIGHT = 1080;
 #define FIELD_SIZE 45
 
 using namespace std;
@@ -268,7 +268,12 @@ int main(void)
 
     assert(glfwInit());
 
-    window = glfwCreateWindow(W_WIDTH, W_HEIGHT, "GOL", glfwGetPrimaryMonitor(), NULL);
+    GLFWmonitor *   monitor     =   glfwGetPrimaryMonitor();
+    window = glfwCreateWindow(W_WIDTH, W_HEIGHT, "GOL", monitor, NULL);
+    const GLFWvidmode * mode    =   glfwGetVideoMode(monitor);
+    W_WIDTH = mode->width;
+    W_HEIGHT = mode->height;
+
     if (!window) {glfwTerminate(); return -1;}
 
     glfwMakeContextCurrent(window);
